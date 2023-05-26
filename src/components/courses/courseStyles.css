@@ -1,0 +1,279 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #13a7be20;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.wrapper {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.courseText {
+  font-size: 38px;
+  font-weight: 600;
+}
+.wrapInput {
+  display: flex;
+  align-items: center;
+  width: 40vw;
+  min-height: 50px;
+  border-radius: 5px;
+}
+.input {
+  height: 100%;
+  width: 90%;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-left: 20px;
+  font-weight: 500;
+}
+.button {
+  height: 100%;
+  width: 70px;
+  border: none;
+  outline: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #13a8be;
+  color: white;
+  font-size: 25px;
+}
+.available_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.available_wrapper {
+  width: 75%;
+}
+.available_wrapCategories {
+  width: 100%;
+  margin-top: 55px;
+}
+.available_wrapCards {
+  width: 100%;
+  min-height: 370px;
+  margin-top: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  /* gap: 5%; */
+}
+.categories_container {
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.categories_cards {
+  height: 100%;
+  padding: 15px 25px;
+  display: flex;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  background-color: #bebebe53;
+  color: #7c7c7c;
+  font-size: 16px;
+  transition: all 0.25s;
+  cursor: pointer;
+}
+.categories_cards:hover {
+  color: #fff;
+  background-color: rgb(49, 46, 42);
+  box-shadow: rgba(32, 32, 32, 0.521) 0 2px 6px 1px;
+}
+.courses_container {
+  width: 310px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.courses_wrapper {
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 200px;
+  background-color: white;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  /* overflow: hidden; */
+}
+.courses_description {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.courses_wrapDetails {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.detailComp_container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.detailComp_dp {
+  border-radius: 5px;
+  width: 25px;
+  height: 25px;
+  /* background-color: navy; */
+  overflow: hidden;
+}
+.detailComp_name {
+  font-size: 11px;
+  font-weight: 500;
+}
+.detailComp_lesson {
+  font-size: 10px;
+  font-weight: 500;
+}
+.detailComp_icon {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  color: green;
+  border: 1px solid green;
+  font-size: 14px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* padding: 1px; */
+}
+.instructorHead_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.instructorHead_text {
+  font-size: 23px;
+  font-weight: 500;
+}
+.view_button {
+  height: 100%;
+  padding: 15px 25px;
+  display: flex;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #13a8be;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.instructorCard_container {
+  width: 300px;
+  padding: 10px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 136, 0.336);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.instructorCard_imageCard {
+  height: 200px;
+  width: 99%;
+  margin-top: -100px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+/* .instructor_details {
+} */
+.instructor_name {
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.instructor_about {
+  font-size: 14px;
+}
+.ui_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.ui_card {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #13a8be20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.ui_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.testimony {
+  font-size: 22px;
+  padding: 10px;
+}
+.testifier {
+  font-size: 28px;
+  padding: 10px;
+  color: #13a8be;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.img2 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.half1 {
+  width: 50%;
+  font-size: 25px;
+  height: 100%;
+  @media screen and (max-width: 900px) {
+    width: 100%;
+  }
+}
+
+.half2 {
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+  margin-top: 30px;
+  overflow: hidden;
+  @media screen and (max-width: 900px) {
+    width: 100%;
+  }
+}
